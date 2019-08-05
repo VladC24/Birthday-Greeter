@@ -1,5 +1,53 @@
-<body style='background-color: #53B5D8'>
-<div>
-	<h1>Hello there!</h1>
-</div>
+<style>
+
+  body {background-color: #53B5D8}
+
+  h1 {font-size: 270%; font-family: comic sans MS; text-align: center; padding-top: 0.5em}
+
+  .p1 {font-size: 170%; text-align: center; font-family: comic sans MS; line-height: 5px}
+
+  .p2 {font-size: 150%; text-align: center; font-family: comic sans MS; line-height: 20px}
+
+
+  form {text-align: center; font-size: 30; font-family: comic sans MS}
+
+  .input1 {line-height: 1.8em; text-align: center; width: 450px; font-size: 20}
+
+  .input2 {line-height: 1.5em; font-size: 15; width: 50px}
+
+  .input3 {height: 30px; width: 300px}
+
+</style>
+
+<body>
+
+  <form action="/details" method="post">
+    <h1>Hello there!</h1>
+    <p class='p1'>What is your name?</p>
+    <input class='input1' type="text" name="name">
+    <p class='p2'>When is your birthday?</p>
+    <label for="day">day
+      <input class='input2' type="text" name="day">
+    </label>
+    <label for="month">month
+	    <select style='font-size: 20' name="month">
+        <option label="January">January</option>
+ 	      <option label="February">February</option>
+  	    <option label="March">March</option>
+  	    <option label="April">April</option>
+  	    <option label="May">May</option>
+  	    <option label="June">June</option>
+  	    <option label="July">July</option>
+  	    <option label="August">August</option>
+  	    <option label="September">September</option>
+  	    <option label="October">October</option>
+  	    <option label="November">November</option>
+  	    <option label="December">December</option>
+      </select>
+    </label>
+    <br>
+    <br>
+    <input class='input3' type='submit' value="Go!">
+  </form>
+
 </body>
