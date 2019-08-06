@@ -6,7 +6,7 @@ This birthday greeter app allows the end user to enter their name and birthday. 
 
 ## Screeshots
 
-![Home page](images/bday_greeter.jpg)
+![Home page](images/bday_greeter.png)
 
 ## Instructions
 
