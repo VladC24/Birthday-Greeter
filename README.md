@@ -4,7 +4,7 @@ This project was my first attempt at developing a Web Application in Ruby.
 
 This birthday greeter app allows the end user to enter their name and birthday. If their Birthday is today's date it sends them a Birthday Greeting, otherwise it tells the user how many days it is until their Birthday.
 
-## Screeshots
+## Screenshots
 
 ![Home page](images/bday_greeter.png)
 
@@ -15,8 +15,10 @@ This birthday greeter app allows the end user to enter their name and birthday. 
 
 * Run 
 
-`$  bundle`
-`$  shotgun`
+```
+$  bundle
+$  shotgun
+```
 
 * Open the browser and type in `localhost: 9393`
 
