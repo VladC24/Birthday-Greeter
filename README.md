@@ -29,3 +29,5 @@ As a user.
 So that I can easily check if it's my birthday.
 I'd like to enter a name and date and have it return a birthday greeting or a countdown.
 ```
+## To Continue
+If I had more time, I would have written the second part of the program, where it would calculate the number of days left until your birthday and add CSS.
